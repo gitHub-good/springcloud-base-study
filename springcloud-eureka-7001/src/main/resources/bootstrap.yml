@@ -1,0 +1,9 @@
+##访问git上的配置文件
+#spring:
+#  cloud:
+#    config:
+#      name: config-erueka-client    #需要从github上读取的资源名称，注意没有yml后缀名
+#      profile: springcloud-config-eureka-7001
+#      label: master
+#      uri: http://config9001.com:9001      #SpringCloudConfig获取的服务地址
+

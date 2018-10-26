@@ -1,0 +1,20 @@
+#server:
+#  port: 9001
+#
+#spring:
+#  application:
+#    name: springcloud-config-server       #微服务名称
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/gitHub-good/SpringCloud-Config.git  #GitHub上面的git仓库名字
+#      label: master
+#eureka:
+#  instance:
+#    hostname: config9001.com
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+#    service-url:
+#      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/

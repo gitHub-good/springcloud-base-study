@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-common-interface-api" />
+        <module name="springcloud-config-9001" />
+        <module name="springcloud-consumer-8100" />
+        <module name="springcloud-eureka-7001" />
+        <module name="springcloud-eureka-7002" />
+        <module name="springcloud-eureka-7003" />
+        <module name="springcloud-provider-8001" />
+        <module name="springcloud-provider-8002" />
+        <module name="springcloud-provider-8003" />
+        <module name="springcloud-zuul-getway-6001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-common-interface-api" target="6" />
+      <module name="springcloud-config-9001" target="1.5" />
+      <module name="springcloud-consumer-8100" target="1.5" />
+      <module name="springcloud-eureka-7001" target="1.5" />
+      <module name="springcloud-eureka-7002" target="1.5" />
+      <module name="springcloud-eureka-7003" target="1.5" />
+      <module name="springcloud-project" target="1.5" />
+      <module name="springcloud-provider-8001" target="1.5" />
+      <module name="springcloud-provider-8002" target="1.5" />
+      <module name="springcloud-provider-8003" target="1.5" />
+      <module name="springcloud-zuul-getway-6001" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
